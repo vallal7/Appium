@@ -50,8 +50,8 @@ it("Should Tap Login Side Menu", function() {
 // Test to enter user name and password //
 it("Should Enter User Name and Password", function() {
     return driver
-        .elementByXPath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIATextField[1]").sendKeys("karthik")
-        .elementByXPath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIASecureTextField[1]").sendKeys("karthik");
+        .elementByXPath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIATextField[1]").sendKeys("user")
+        .elementByXPath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIASecureTextField[1]").sendKeys("password");
     });
 // Test to tap on login and return to main screen //
 it("Should Tap on Login Button", function() {
