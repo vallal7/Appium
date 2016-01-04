@@ -1,0 +1,17 @@
+{
+  "name": "IonicAppiumTestConfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ionic_appium_test.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  "mocha": "*",
+  "chai": "*",
+  "chai-as-promised": "*",
+  "wd": "*",
+  "colors": "*",
+  "underscore": "*",
+  "q": "*"
+  }
+}

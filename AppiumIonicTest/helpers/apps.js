@@ -1,0 +1,1 @@
+exports.myTestApp = "/Users/ganesas/Documents/personal/githubUps/Hybrid\ Apps/Appium/Appium/Appium_App/Appium.app";
